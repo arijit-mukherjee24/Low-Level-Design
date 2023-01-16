@@ -1,0 +1,89 @@
+-------------------
+After first expense:
+
+---------------------------------------
+Balance sheet of user : U1001
+TotalYourExpense: 300.0
+TotalGetBack: 600.0
+TotalYourOwe: 0.0
+TotalPaymnetMade: 900.0
+userID:U2001 YouGetBack:300.0 YouOwe:0.0
+userID:U3001 YouGetBack:300.0 YouOwe:0.0
+---------------------------------------
+---------------------------------------
+Balance sheet of user : U2001
+TotalYourExpense: 300.0
+TotalGetBack: 0.0
+TotalYourOwe: 300.0
+TotalPaymnetMade: 0.0
+userID:U1001 YouGetBack:0.0 YouOwe:300.0
+---------------------------------------
+---------------------------------------
+Balance sheet of user : U3001
+TotalYourExpense: 300.0
+TotalGetBack: 0.0
+TotalYourOwe: 300.0
+TotalPaymnetMade: 0.0
+userID:U1001 YouGetBack:0.0 YouOwe:300.0
+---------------------------------------
+
+
+
+-----------------------------------------------------------
+After 2nd expense only (not considered the first expense):
+---------------------------------------
+Balance sheet of user : U1001
+TotalYourExpense: 400.0
+TotalGetBack: 0.0
+TotalYourOwe: 400.0
+TotalPaymnetMade: 0.0
+userID:U2001 YouGetBack:0.0 YouOwe:400.0
+---------------------------------------
+---------------------------------------
+Balance sheet of user : U2001
+TotalYourExpense: 100.0
+TotalGetBack: 400.0
+TotalYourOwe: 0.0
+TotalPaymnetMade: 500.0
+userID:U1001 YouGetBack:400.0 YouOwe:0.0
+---------------------------------------
+---------------------------------------
+Balance sheet of user : U3001
+TotalYourExpense: 0.0
+TotalGetBack: 0.0
+TotalYourOwe: 0.0
+TotalPaymnetMade: 0.0
+---------------------------------------
+
+
+
+
+
+---------------------------------------
+After first and second expense both:
+---------------------------------------
+Balance sheet of user : U1001
+TotalYourExpense: 700.0
+TotalGetBack: 600.0
+TotalYourOwe: 400.0
+TotalPaymnetMade: 900.0
+userID:U2001 YouGetBack:300.0 YouOwe:400.0
+userID:U3001 YouGetBack:300.0 YouOwe:0.0
+---------------------------------------
+---------------------------------------
+Balance sheet of user : U2001
+TotalYourExpense: 400.0
+TotalGetBack: 400.0
+TotalYourOwe: 300.0
+TotalPaymnetMade: 500.0
+userID:U1001 YouGetBack:400.0 YouOwe:300.0
+---------------------------------------
+---------------------------------------
+Balance sheet of user : U3001
+TotalYourExpense: 300.0
+TotalGetBack: 0.0
+TotalYourOwe: 300.0
+TotalPaymnetMade: 0.0
+userID:U1001 YouGetBack:0.0 YouOwe:300.0
+---------------------------------------
+
